@@ -1,0 +1,54 @@
+{
+  "name": "@ledgerhq/ledger-web3-react-connector",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "6.1.9",
+  "description": "Ledger connector for web3-react",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "ethereum",
+    "javascript",
+    "typescript",
+    "web3",
+    "context",
+    "frontend",
+    "dapp",
+    "ledger"
+  ],
+  "author": "Hugo Lopes <hugo.lopes-ext@ledger.fr>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ledgerhq/ledger-web3-react-connector.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/ledger-connector.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "lint": "tsdx lint src"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "react": "^18.1.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@web3-react/abstract-connector": "^6.0.7",
+    "@web3-react/types": "^6.0.7"
+  },
+  "license": "GPL-3.0-or-later",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}
